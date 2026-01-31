@@ -104,10 +104,15 @@
         .front-page h1 { 
             font-family: 'Great Vibes', cursive; 
             font-size: clamp(3.5rem, 12vw, 6rem); 
-            margin-top: -30px;
-            margin-bottom: 100px;
             text-shadow: 0 4px 10px rgba(0,0,0,0.5);
             animation: textFocusIn 1.8s ease-out;
+            position: absolute;
+            top: 15%; /* Adjust this percentage to move it higher or lower */
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100%;
+            margin: 0;
+            text-align: center;
         }
 
         .front-page .date-sub { 
@@ -434,6 +439,7 @@ We sincerely look forward to celebrating these precious moments with you and you
 </body>
 
 </html>
+
 
 
 
